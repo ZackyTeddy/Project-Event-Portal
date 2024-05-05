@@ -1,0 +1,31 @@
+This repo is the product of a 3-day technical assessment from Dreamory to create an Event Manager webapp, fulfilling the below requirements
+
+
+- [x] Login
+- [x] Admin Portal
+	- [x] Create Event
+		- [x] Event Name,  Description, Image, Date, Time, Location, Status (Complete, Ongoing, Not Started, Cancelled), Priority 
+	- [x] List Events via Table
+	- [x] Update Event
+		- [x] Update all fields
+	- [x] Delete Event
+		- [x] Delete button next to each event
+	- [x] Filter Events
+		- [x] Show All and each different statuses
+- [x] User Portal (Guest)
+	- [x] List Events
+	- [x] Select Event
+		- [x] View More info of event
+- [ ] Cleanup
+- [ ] BONUS CHALLENGES
+	- [x] Use MaterialUI and TailwindCSS
+	- [ ] Implement Local Storage to persist event creation even if browser is closed and reopened
+	- [ ] Unit Testing: Mocha
+	- [ ] Responsive Screen (using Tailwind)
+	- [x] List Pagination
+	- [x] Infinite Scrolling to List
+	- [ ] Sorting options for list items in admin
+		- [ ] Creation Date
+		- [ ] Due Date
+		- [ ] Priority
+	- [ ] Dark Mode?
